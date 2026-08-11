@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hairsense DHA 6 | Best Men's Salon Lahore</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS v3 CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0f172a',
+                        brandGold: '#d97706',
+                        brandGoldHover: '#b45309',
+                        bgWhite: '#ffffff',
+                        bgSoft: '#f8fafc',
+                        textMain: '#1e293b',
+                        textLight: '#64748b',
+                        borderBorder: '#e2e8f0'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #1e293b;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .tab-btn.active {
+            background-color: #d97706;
+            color: #ffffff;
+            border-color: #d97706;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+    </style>
+</head>
+<body class="selection:bg-brandGold selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-brandGold text-white text-xs py-2 px-4 text-center font-medium tracking-wide">
+        📍 DHA Phase 6 Lahore • Open Daily 11:00 AM – 11:00 PM • Call: +92 300 2222464
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-borderBorder shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-brandGold text-white rounded-xl flex items-center justify-center font-black text-xl shadow-md">
+                    H
+                </div>
+                <div>
+                    <span class="font-extrabold text-xl tracking-tight text-brandDark block leading-none">
+                        HAIRSENSE
+                    </span>
+                    <span class="text-[10px] font-bold tracking-wider text-brandGold uppercase">
+                        Men's Salon • DHA 6
+                    </span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-textLight">
+                <a href="#services" class="hover:text-brandGold transition-colors">Services & Rates</a>
+                <a href="#about" class="hover:text-brandGold transition-colors">Why Choose Us</a>
+                <a href="#team" class="hover:text-brandGold transition-colors">Stylists</a>
+                <a href="#location" class="hover:text-brandGold transition-colors">Location</a>
+            </nav>
+
+            <button onclick="openBookingModal()" class="px-6 py-2.5 bg-brandGold text-white font-bold text-xs uppercase tracking-wider rounded-xl hover:bg-brandGoldHover transition-all shadow-md">
+                Book Seat
+            </button>
+        </div>
+    </header>
+
+    <!-- NEW PREMIUM HERO SECTION -->
+    <section class="relative py-16 lg:py-24 px-6 hero-gradient text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Left Text Content -->
+            <div class="space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-xs font-semibold text-amber-300">
+                    ⭐ Rated 4.8/5 by 300+ Men in Lahore
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                    Look Sharp.<br />
+                    <span class="text-amber-400">Feel Confident.</span>
+                </h1>
+
+                <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                    Lahore’s premier grooming lounge for men. Professional haircuts, modern beard styles, and relaxing facials by expert stylists.
+                </p>
+
+                <div class="pt-2 flex flex-wrap justify-center lg:justify-start gap-4">
+                    <button onclick="openBookingModal()" class="px-8 py-4 bg-brandGold text-white font-bold text-sm rounded-xl hover:bg-brandGoldHover transition-all shadow-lg">
+                        Book Appointment Now
+                    </button>
+                    <a href="#services" class="px-8 py-4 bg-white/10 border border-white/20 text-white font-bold text-sm rounded-xl hover:bg-white/20 transition-all">
+                        View Rates & Prices
+                    </a>
+                </div>
+
+                <!-- Stats Quick View -->
+                <div class="pt-8 border-t border-white/10 grid grid-cols-3 gap-4 text-center lg:text-left">
+                    <div>
+                        <span class="text-2xl font-bold text-amber-400 block">100%</span>
+                        <span class="text-xs text-slate-400">Hygiene Tools</span>
+                    </div>
+                    <div>
+                        <span class="text-2xl font-bold text-amber-400 block">10+</span>
+                        <span class="text-xs text-slate-400">Years Experience</span>
+                    </div>
+                    <div>
+                        <span class="text-2xl font-bold text-amber-400 block">DHA 6</span>
+                        <span class="text-xs text-slate-400">Prime Location</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Visual Box -->
+            <div class="relative">
+                <div class="bg-gradient-to-tr from-amber-500/20 to-transparent p-3 rounded-3xl border border-white/10">
+                    <div class="bg-slate-800 rounded-2xl overflow-hidden shadow-2xl border border-white/10 p-8 text-center space-y-6">
+                        <div class="w-20 h-20 bg-brandGold/20 text-brandGold rounded-full flex items-center justify-center mx-auto text-3xl">
+                            ✂️
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Hairsense Studio</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed max-w-sm mx-auto">
+                            Visit our modern salon in Phase 6 CC Plaza. Comfortable seating, hygienic environment, and expert hair specialists.
+                        </p>
+                        
+                        <div class="p-4 bg-slate-900/80 rounded-xl text-left text-xs space-y-2 border border-white/5">
+                            <div class="flex justify-between text-slate-300">
+                                <span>Haircut & Styling</span>
+                                <span class="font-bold text-amber-400">PKR 2,500</span>
+                            </div>
+                            <div class="flex justify-between text-slate-300">
+                                <span>Beard Shape & Trim</span>
+                                <span class="font-bold text-amber-400">PKR 1,800</span>
+                            </div>
+                            <div class="flex justify-between text-slate-300">
+                                <span>Charcoal Facial</span>
+                                <span class="font-bold text-amber-400">PKR 4,500</span>
+                            </div>
+                        </div>
+
+                        <a href="tel:+923002222464" class="block w-full py-3 bg-white text-slate-900 font-bold text-xs rounded-xl hover:bg-slate-100 transition-colors">
+                            📞 Direct Call: 0300 2222464
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="about" class="py-20 px-6 bg-bgSoft">
+        <div class="max-w-7xl mx-auto space-y-12">
+            <div class="text-center space-y-2 max-w-xl mx-auto">
+                <span class="text-xs font-bold uppercase tracking-widest text-brandGold">Why Choose Us</span>
+                <h2 class="text-3xl font-extrabold text-brandDark">The Best Salon Experience</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-borderBorder shadow-sm space-y-4 hover:border-brandGold transition-all">
+                    <div class="w-12 h-12 bg-amber-50 text-brandGold rounded-xl flex items-center justify-center text-xl font-bold">
+                        1
+                    </div>
+                    <h3 class="text-xl font-bold text-brandDark">Expert Hair Artists</h3>
+                    <p class="text-xs text-textLight leading-relaxed">
+                        Our barber team specializes in all modern fades, beard shapes, and classic cuts suited to your face profile.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-borderBorder shadow-sm space-y-4 hover:border-brandGold transition-all">
+                    <div class="w-12 h-12 bg-amber-50 text-brandGold rounded-xl flex items-center justify-center text-xl font-bold">
+                        2
+                    </div>
+                    <h3 class="text-xl font-bold text-brandDark">Clean & Hygienic</h3>
+                    <p class="text-xs text-textLight leading-relaxed">
+                        Fresh blades, sanitized equipment, and single-use towels for every customer without exceptions.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-borderBorder shadow-sm space-y-4 hover:border-brandGold transition-all">
+                    <div class="w-12 h-12 bg-amber-50 text-brandGold rounded-xl flex items-center justify-center text-xl font-bold">
+                        3
+                    </div>
+                    <h3 class="text-xl font-bold text-brandDark">Relaxing Vibe</h3>
+                    <p class="text-xs text-textLight leading-relaxed">
+                        Enjoy a calm, premium atmosphere with complimentary tea/coffee during your haircut session.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES & PRICING MENU -->
+    <section id="services" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="text-center space-y-2 mb-10">
+            <span class="text-xs font-bold uppercase tracking-widest text-brandGold">Menu & Pricing</span>
+            <h2 class="text-3xl font-extrabold text-brandDark">Our Services</h2>
+        </div>
+
+        <!-- Dynamic Category Tabs -->
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+            <button onclick="switchTab('hair')" id="tab-hair" class="tab-btn active px-6 py-2.5 rounded-xl border border-borderBorder text-xs font-bold transition-all text-textLight bg-white">
+                Hair Services
+            </button>
+            <button onclick="switchTab('beard')" id="tab-beard" class="tab-btn px-6 py-2.5 rounded-xl border border-borderBorder text-xs font-bold transition-all text-textLight bg-white">
+                Beard Styling
+            </button>
+            <button onclick="switchTab('skin')" id="tab-skin" class="tab-btn px-6 py-2.5 rounded-xl border border-borderBorder text-xs font-bold transition-all text-textLight bg-white">
+                Skin & Facials
+            </button>
+            <button onclick="switchTab('packages')" id="tab-packages" class="tab-btn px-6 py-2.5 rounded-xl border border-borderBorder text-xs font-bold transition-all text-textLight bg-white">
+                Special Deals
+            </button>
+        </div>
+
+        <!-- Dynamic Items Box -->
+        <div id="services-container" class="space-y-4">
+            <!-- Dynamic JS Output -->
+        </div>
+    </section>
+
+    <!-- MASTER STYLISTS -->
+    <section id="team" class="py-20 px-6 bg-bgSoft border-y border-borderBorder">
+        <div class="max-w-6xl mx-auto space-y-12">
+            <div class="text-center space-y-2">
+                <span class="text-xs font-bold uppercase tracking-widest text-brandGold">Our Barbers</span>
+                <h2 class="text-3xl font-extrabold text-brandDark">Meet Our Stylists</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl border border-borderBorder text-center space-y-3 shadow-sm">
+                    <div class="w-16 h-16 bg-brandDark text-amber-400 font-bold text-xl rounded-full flex items-center justify-center mx-auto">
+                        A
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-brandDark">Asif</h3>
+                        <p class="text-xs font-bold text-brandGold">Master Hair Artist</p>
+                    </div>
+                    <p class="text-xs text-textLight">Scissors cut & classic styling specialist.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-borderBorder text-center space-y-3 shadow-sm">
+                    <div class="w-16 h-16 bg-brandDark text-amber-400 font-bold text-xl rounded-full flex items-center justify-center mx-auto">
+                        A
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-brandDark">Azmat</h3>
+                        <p class="text-xs font-bold text-brandGold">Senior Barber</p>
+                    </div>
+                    <p class="text-xs text-textLight">Modern skin fades & beard sculpting expert.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-borderBorder text-center space-y-3 shadow-sm">
+                    <div class="w-16 h-16 bg-brandDark text-amber-400 font-bold text-xl rounded-full flex items-center justify-center mx-auto">
+                        H
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-brandDark">Hamza</h3>
+                        <p class="text-xs font-bold text-brandGold">Skin Specialist</p>
+                    </div>
+                    <p class="text-xs text-textLight">Deep facials & massage treatment expert.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION WITH EMBEDDED GOOGLE MAP -->
+    <section id="location" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="space-y-6">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-brandGold">Location</span>
+                    <h2 class="text-3xl font-extrabold text-brandDark mt-1">Visit Our Lounge</h2>
+                </div>
+
+                <div class="space-y-4 text-xs text-brandDark">
+                    <div class="p-4 bg-bgSoft rounded-xl border border-borderBorder space-y-1">
+                        <strong class="text-textLight uppercase tracking-wider block">Address</strong>
+                        <p class="text-sm font-semibold">2nd Floor, Plaza CC 14, Street 23 C, Sector C, DHA Phase 6, Lahore.</p>
+                    </div>
+
+                    <div class="p-4 bg-bgSoft rounded-xl border border-borderBorder space-y-1">
+                        <strong class="text-textLight uppercase tracking-wider block">Timings</strong>
+                        <p class="text-sm font-semibold">Open Daily: 11:00 AM – 11:00 PM</p>
+                    </div>
+
+                    <div class="p-4 bg-bgSoft rounded-xl border border-borderBorder space-y-1">
+                        <strong class="text-textLight uppercase tracking-wider block">Contact</strong>
+                        <p class="text-sm font-semibold">+92 300 2222464</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 pt-2">
+                    <a href="tel:+923002222464" class="px-6 py-3 bg-brandDark text-white text-xs font-bold rounded-xl hover:bg-slate-800 transition-colors">
+                        Call Salon
+                    </a>
+                    <a href="https://maps.google.com/?q=Hairsense+DHA+Phase+6+Lahore" target="_blank" class="px-6 py-3 bg-white border border-borderBorder text-brandDark text-xs font-bold rounded-xl hover:bg-bgSoft transition-colors">
+                        Open Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <div class="w-full h-[400px] rounded-2xl overflow-hidden border border-borderBorder shadow-md bg-white">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.977213019316!2d74.44522388885498!3d31.469813000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391909028368f6f7%3A0xfc2a1a42f053769f!2sHairsense%20DHA%206%20(%20Best%20Salon%20for%20Men)!5e0!3m2!1sen!2s!4v1786422103979!5m2!1sen!2s" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t border-borderBorder py-8 px-6 text-center text-xs text-textLight space-y-1">
+        <p class="font-bold text-brandDark">HAIRSENSE DHA 6 LAHORE</p>
+        <p>© 2026 All Rights Reserved.</p>
+    </footer>
+
+    <!-- BOOKING MODAL -->
+    <div id="bookingModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 max-w-md w-full relative space-y-6">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-textLight hover:text-brandDark font-bold text-lg">
+                ✕
+            </button>
+
+            <div class="space-y-1">
+                <span class="text-xs font-bold text-brandGold uppercase tracking-wider">Quick Booking</span>
+                <h3 class="text-2xl font-bold text-brandDark">Reserve Appointment</h3>
+                <p id="selectedServiceText" class="text-xs text-brandGold font-semibold hidden"></p>
+            </div>
+
+            <form id="bookingForm" onsubmit="handleBookingSubmit(event)" class="space-y-4 text-xs">
+                <div>
+                    <label class="block font-bold text-brandDark mb-1">Your Name</label>
+                    <input type="text" id="clientName" required placeholder="Full Name" class="w-full p-3 bg-bgSoft border border-borderBorder rounded-xl focus:border-brandGold outline-none text-brandDark">
+                </div>
+                <div>
+                    <label class="block font-bold text-brandDark mb-1">Phone Number</label>
+                    <input type="tel" id="clientPhone" required placeholder="0300 0000000" class="w-full p-3 bg-bgSoft border border-borderBorder rounded-xl focus:border-brandGold outline-none text-brandDark">
+                </div>
+                <div>
+                    <label class="block font-bold text-brandDark mb-1">Preferred Time</label>
+                    <input type="datetime-local" id="clientTime" required class="w-full p-3 bg-bgSoft border border-borderBorder rounded-xl focus:border-brandGold outline-none text-brandDark">
+                </div>
+
+                <button type="submit" class="w-full py-3.5 bg-brandGold text-white text-xs font-bold rounded-xl hover:bg-brandGoldHover transition-colors shadow-md">
+                    Confirm via WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        const servicesData = {
+            hair: [
+                { name: "Haircut & Head Wash", duration: "45 Min", price: "PKR 2,500", desc: "Precision hair cut with refreshing scalp wash & styling." },
+                { name: "Senior Stylist Haircut", duration: "60 Min", price: "PKR 4,000", desc: "Specialized cut designed by Master Barber Asif." },
+                { name: "Blowout & Volume Style", duration: "30 Min", price: "PKR 1,800", desc: "Shampoo wash, high volume blow dry, and wax finish." }
+            ],
+            beard: [
+                { name: "Beard Shape & Razor Trim", duration: "35 Min", price: "PKR 1,800", desc: "Razor edging, fade shaping, and nourishing beard oil." },
+                { name: "Classic Hot Towel Shave", duration: "40 Min", price: "PKR 2,200", desc: "Smooth single-blade shave with hot towel wrap." }
+            ],
+            skin: [
+                { name: "Deep Charcoal Facial", duration: "50 Min", price: "PKR 4,500", desc: "Exfoliating wash, blackhead removal, and detox mask." },
+                { name: "Glow Skin Treatment", duration: "60 Min", price: "PKR 6,000", desc: "Full facial massage, serum hydration, and eye relaxation." }
+            ],
+            packages: [
+                { name: "Gentleman Combo", duration: "90 Min", price: "PKR 7,500", desc: "Haircut + Beard Trim + Charcoal Facial." },
+                { name: "Groom Grooming Package", duration: "120 Min", price: "PKR 15,000", desc: "Full hair cut, beard styling, deep skin facial, and scalp massage." }
+            ]
+        };
+
+        let selectedServiceName = null;
+
+        function renderServices(categoryKey) {
+            const container = document.getElementById('services-container');
+            const items = servicesData[categoryKey] || [];
+            
+            container.innerHTML = items.map(item => `
+                <div class="p-5 bg-white rounded-2xl border border-borderBorder shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-amber-300 transition-all">
+                    <div class="space-y-1">
+                        <div class="flex items-center gap-3">
+                            <h3 class="text-base font-bold text-brandDark">${item.name}</h3>
+                            <span class="text-[10px] font-bold text-brandGold px-2 py-0.5 bg-amber-50 rounded border border-amber-200">
+                                ${item.duration}
+                            </span>
+                        </div>
+                        <p class="text-xs text-textLight">${item.desc}</p>
+                    </div>
+
+                    <div class="flex items-center justify-between md:justify-end gap-5 border-t md:border-t-0 pt-3 md:pt-0 border-borderBorder">
+                        <span class="text-lg font-extrabold text-brandDark">${item.price}</span>
+                        <button onclick="openBookingModal('${item.name}')" class="px-4 py-2 bg-brandGold text-white text-xs font-bold rounded-xl hover:bg-brandGoldHover transition-colors">
+                            Book
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function switchTab(tabKey) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`tab-${tabKey}`).classList.add('active');
+            renderServices(tabKey);
+        }
+
+        function openBookingModal(serviceName = null) {
+            selectedServiceName = serviceName;
+            const textElem = document.getElementById('selectedServiceText');
+            if (serviceName) {
+                textElem.innerText = `Selected: ${serviceName}`;
+                textElem.classList.remove('hidden');
+            } else {
+                textElem.classList.add('hidden');
+            }
+            const modal = document.getElementById('bookingModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeBookingModal() {
+            const modal = document.getElementById('bookingModal');
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+        }
+
+        function handleBookingSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('clientName').value;
+            const phone = document.getElementById('clientPhone').value;
+            const time = document.getElementById('clientTime').value;
+            const service = selectedServiceName ? ` (${selectedServiceName})` : '';
+
+            const whatsappMessage = encodeURIComponent(`Hello Hairsense DHA 6,\nI want to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nTime: ${time}${service}`);
+            window.open(`https://wa.me/923002222464?text=${whatsappMessage}`, '_blank');
+            closeBookingModal();
+        }
+
+        // Initialize default tab
+        renderServices('hair');
+    </script>
+</body>
+</html>
